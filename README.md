@@ -46,7 +46,38 @@ The following elements should be included in JSON format in the GET request. If 
 	
     }
     
-    Error Logging
     
-    Errors related to Invalid Token and Missing Compulsory Fields are logged in Bugsnag.
+Error Logging
     
+Errors related to Invalid Token and Missing Compulsory Fields are logged in Bugsnag.
+    
+
+Environment Variables
+
+Here are the enrivonment variables needed to run microservices:
+
+DW_PORT
+
+DW_USER
+
+DW_PASSWORD
+
+DW_NAME
+
+DW_HOST
+
+REDIS_URL
+
+REDIS_HOST
+
+REDIS_PORT
+
+BAILEY_TOKEN
+
+FLASK_HOST
+
+FLASK_PORT
+
+BUGSNAG_TOKEN
+
+BUGSNAG_PATH
