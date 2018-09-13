@@ -18,7 +18,7 @@ Bailey API is a Python Flask microframework running in a Gunicorn HTTP server. I
 
 The following elements should be included in JSON format in the GET request. If any of the element is empty or missing, Bailey will return 404 response with a "Missing Compulsory Fields" message. 
 
-111
+
 
 {
 	
